@@ -457,12 +457,14 @@ color: var(--primary-text-color);
     padding-top: 0;
  }
  .work-images{
-   
-    display: flex;
+   display: flex;
+ }
+ .work-list{
+    position: relative;
  }
  .work-list:not(:first-child){
     margin-left: 30px;
-    position: relative;
+   
  }
  .work-list + .work-list{
     margin-left: 30px;
